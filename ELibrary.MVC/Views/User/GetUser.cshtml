@@ -1,0 +1,35 @@
+﻿@model UserToUpdateViewModel
+
+@{
+    Layout = "_DashBoardLayout";
+    ViewBag.Title = "View and Edit User";
+}
+<div class="container py-24">
+    <div class="flex justify-center">
+        <div class="w-2\/4 bg-white p-6 shadow-2xl border-t-8 border-blue-600">
+            <div class="py-4">
+                <h2 class="text-center font-bold text-3xl antialiased tracking-wide">User Information</h2>
+            </div>
+
+            <form method="post" asp-controller="" asp-action="">
+                <div class="mb-4">
+                    <label asp-for="FirstName" class="label"></label>
+                    <input asp-for="FirstName" type="text" class="input w-full" />
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="LastName" class="label"></label>
+                    <input asp-for="LastName" type="text" class="input w-full" />
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Email" class="label"></label>
+                    <input asp-for="Email" type="email" class="input w-full" />
+                </div>
+                <div class="flex justify-center mb-4">
+                    <button type="submit" class="btn inline-block btn-primary">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

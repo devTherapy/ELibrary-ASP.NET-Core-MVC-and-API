@@ -1,0 +1,106 @@
+﻿
+
+
+@{ Layout = "_DashBoardLayout";
+    ViewBag.Title = "Add New Book";
+    
+
+}
+
+
+@{
+    var categories = ViewData["category"] as IEnumerable<CategoryOptionViewModel>;
+}
+@model AddBookViewModel
+
+%
+
+
+
+<div class="container py-24">
+    <div class="flex justify-center">
+        <div class="w-2\/4 bg-white p-6 shadow-2xl border-t-8 border-blue-600">
+            <div class="py-4">
+                <h2 class="text-center font-bold text-3xl antialiased tracking-wide">Add New Book</h2>
+            </div>
+
+            <form method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Title" class="label"></label>
+                    <input asp-for="@Model.Title" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Title" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Author" class="label"></label>
+                    <input asp-for="@Model.Author" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Author" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Language" class="label"></label>
+                    <input asp-for="@Model.Language" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Language" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.ISBN" class="label"></label>
+                    <input asp-for="@Model.ISBN" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.ISBN" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.PublishedDate" class="label"></label>
+                    <input asp-for="@Model.PublishedDate" type="date" class="input w-full" />
+                    <div><span asp-validation-for="@Model.PublishedDate" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Publisher" class="label"></label>
+                    <input asp-for="@Model.Publisher" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Publisher" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Pages" class="label"></label>
+                    <input asp-for="@Model.Pages" type="number" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Pages" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Description" class="label"></label>
+                    <input asp-for="@Model.Description" type="text" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Description" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.Copies" class="label"></label>
+                    <input asp-for="@Model.Copies" type="number" class="input w-full" />
+                    <div><span asp-validation-for="@Model.Copies" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.AvailableCopies" class="label"></label>
+                    <input asp-for="@Model.AvailableCopies" type="number" class="input w-full" />
+                    <div><span asp-validation-for="@Model.AvailableCopies" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.AvailableCopies" class="label"></label>
+                    <input asp-for="@Model.AvailableCopies" type="number" class="input w-full" />
+                    <div><span asp-validation-for="@Model.AvailableCopies" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <label asp-for="@Model.PhotoFile" class="label"></label>
+                    <input asp-for="@Model.PhotoFile"  type="file" class="input w-full" />
+                    <div><span asp-validation-for="@Model.PhotoFile" class="text-red-600 italic text-sm"></span></div>
+                </div>
+                <div class="mb-4">
+                    <select asp-for="@Model.Category" class="appearance-none h-full rounded-r border-t sm:rounded-r-none sm:border-r-0 border-r border-b block appearance-none w-full bg-white border-gray-400 text-gray-700 py-2 px-4 pr-8 leading-tight focus:outline-none focus:border-l focus:border-r focus:bg-white focus:border-gray-500">
+                        <option value="" selected disabled hidden> search options</option>
+                        @foreach (var item in categories)
+                        {
+                            <option>@item.Name</option>
+                        }
+                    </select>
+
+                </div>
+               
+                <div class="flex justify-center mb-4">
+                    <button type="submit" class="btn inline-block btn-primary">Add Book</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

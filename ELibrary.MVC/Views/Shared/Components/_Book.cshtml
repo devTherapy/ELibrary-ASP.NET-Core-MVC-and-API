@@ -1,0 +1,30 @@
+@model BookViewModel;
+
+<div class="w-52">
+    <div class="mb-2 overflow-hidden">
+        <div class="aspect-h-12 aspect-w-8 w-48">
+            <img class="object-cover object-center" src="@Model.PhotoUrl"  alt="" />
+        </div>
+    </div>
+    <div>
+        <a asp-controller="Book" asp-action="BookDetail" asp-route-bookId="@Model.Id" class="inline-block mb-1 font-semibold leading-5 hover:underline hover:text-gray-900">@Model.Title</a>
+        <p>@Model.Author</p>
+        @* <div> *@
+        @*     <i class="fas fa-star"></i> *@
+        @*     <i class="fas fa-star"></i> *@
+        @*     <i class="fas fa-star"></i> *@
+        @*     <i class="fas fa-star"></i> *@
+        @*     <i class="fas fa-star"></i> *@
+        @* *@
+        @*     <span class="inline-block ml-2">@Model.Rating</span> *@
+        @* </div> *@
+        @if (@Model.Availability)
+        {
+            <p>Available</p>
+        }
+        else
+        {
+            <p>Unavailable</p>
+        }
+    </div>
+</div>

@@ -1,0 +1,272 @@
+[
+  {
+    "BookId": 4,
+    "Subject": "Great book",
+    "Body": "My 10 year old is a very challenged reader, currently being evaluated for dyslexia. Getting him to read has been difficult but he heard this as an audio book",
+    "CreatedAt": "2020-11-26T22:18:06Z"
+  },
+  {
+    "BookId": 3,
+    "Subject": "Hoot",
+    "Body": "My kid wanted me to read this book, so I did. And I have to say, its pretty well written, and I actually enjoyed it.",
+    "CreatedAt": "2020-07-05T17:32:11Z"
+  },
+  {
+    "BookId": 11,
+    "Subject": "Good Message",
+    "Body": "It shows kids to stand up for what they belivein and that there parents can help",
+    "CreatedAt": "2020-08-16T14:07:52Z"
+  },
+  {
+    "BookId": 5,
+    "Subject": "An OK Book, but not TOO OK",
+    "Body": "Roy Eberhardt is a kid who moves from Montana to Florida, and doesn't like it at all. He expects what he gets though; a bully: Dana Matherson. Roy wouldn't have met Napolean at all if it weren't for Dana, though. After Dana mashed his face into his school bus window, Roy saw the boy.",
+    "CreatedAt": "2020-06-26T03:34:52Z"
+  },
+  {
+    "BookId": 5,
+    "Subject": "No good adult role models, among other things",
+    "Body": "The recommendation of 10 years old and up seems a little young to me, honestly. Out of the three main families discussed, domestic violence is definitely going on in one of them and hinted at in another. The fact that it’s not even addressed, simply a detail in the story is troubling.",
+    "CreatedAt": "2020-12-03T23:45:35Z"
+  },
+  {
+    "BookId": 2,
+    "Subject": "Hoot rocks!!",
+    "Body": "Hoot is one of my favorite books. It had a good message. And even though the main characters did some things that were bad it was to help something important. That really made the book awesome. I hope you read it!",
+    "CreatedAt": "2021-01-22T19:18:53Z"
+  },
+  {
+    "BookId": 7,
+    "Subject": "too boring to read",
+    "Body": "i died of bordom reading this book",
+    "CreatedAt": "2021-02-06T11:08:19Z"
+  },
+  {
+    "BookId": 3,
+    "Subject": "HOOT IS THE BEST BOOK EVER!",
+    "Body": "OMG best book I have ever EVER read!!!!!!!!!!!!!! Please read!!!!!!!!!!! If you don't you will never find a good book again! Just saying!",
+    "CreatedAt": "2020-09-06T09:14:38Z"
+  },
+  {
+    "BookId": 15,
+    "Subject": "good!",
+    "Body": "it was really good",
+    "CreatedAt": "2021-01-22T01:59:25Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "This is a great book!!!!!!!!!!!!!!!!",
+    "Body": "Repair Left Upper Lobe Bronchus, Via Natural or Artificial Opening",
+    "CreatedAt": "2020-11-05T03:58:24Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "Good for anyone over 11",
+    "Body": "Good book, good moral, slight foul language use(small amount)",
+    "CreatedAt": "2020-07-20T05:55:26Z"
+  },
+  {
+    "BookId": 11,
+    "Subject": "nature is something we should care about",
+    "Body": "this book is awesome and shows that you can have fun and save nature at the same time. if you haven't read the book or seen the movie, i suggest you do.",
+    "CreatedAt": "2020-11-07T20:12:27Z"
+  },
+  {
+    "BookId": 15,
+    "Subject": "Operative",
+    "Body": "it was really good",
+    "CreatedAt": "2021-03-23T19:38:34Z"
+  },
+  {
+    "BookId": 1,
+    "Subject": "Animal Conservation",
+    "Body": "This book highlights animal conservation and how if you preserver you can make a difference and help a lot of people/animals.",
+    "CreatedAt": "2020-11-12T02:37:28Z"
+  },
+  {
+    "BookId": 12,
+    "Subject": "Multi-tiered",
+    "Body": "Wow, we read this when I was in sixth grade. There's a little language, bullying and even a child using a false identity but still a great book with positive messages towards saving an endangered species.",
+    "CreatedAt": "2020-09-14T23:49:49Z"
+  },
+  {
+    "BookId": 7,
+    "Subject": "Great",
+    "Body": "I recommend it to a lot of kids.",
+    "CreatedAt": "2021-01-07T14:16:24Z"
+  },
+  {
+    "BookId": 2,
+    "Subject": "terrible",
+    "Body": "This book is the worst. No meaning and a complete waste of time.",
+    "CreatedAt": "2021-04-01T23:37:07Z"
+  },
+  {
+    "BookId": 5,
+    "Subject": "global",
+    "Body": "Carl Hiaasen has written a twentieth century masterpiece in this zany thrill ride of a novel. We’ve all been looking for inspiration to help nature. Here it is. Everything in this book keeps readers turning pages, and humor sprinkled everywhere makes this a must read that reluctant",
+    "CreatedAt": "2020-06-01T12:04:21Z"
+  },
+  {
+    "BookId": 7,
+    "Subject": "Multi-tiered",
+    "Body": "Inspection of Male Perineum, External Approach",
+    "CreatedAt": "2021-05-19T03:28:23Z"
+  },
+  {
+    "BookId": 2,
+    "Subject": "application",
+    "Body": "Good book, good moral, slight foul language use(small amount)",
+    "CreatedAt": "2020-09-10T06:13:51Z"
+  },
+  {
+    "BookId": 10,
+    "Subject": "Boring & Depressing",
+    "Body": "I've been told that this book is a beautiful, lyrical classic. This book was so boring I could barely read it without falling asleep every 5 minutes",
+    "CreatedAt": "2021-01-08T17:28:17Z"
+  },
+  {
+    "BookId": 10,
+    "Subject": "methodical",
+    "Body": "OMG best book I have ever EVER read!!!!!!!!!!!!!! Please read!!!!!!!!!!! If you don't you will never find a good book again! Just saying!",
+    "CreatedAt": "2021-01-30T07:27:21Z"
+  },
+  {
+    "BookId": 1,
+    "Subject": "Object-based",
+    "Body": "This is a great book!!!!!!!!!!!!!!!!",
+    "CreatedAt": "2020-12-02T12:24:01Z"
+  },
+  {
+    "BookId": 11,
+    "Subject": "flexibility",
+    "Body": "this book is awesome and shows that you can have fun and save nature at the same time. if you haven't read the book or seen the movie, i suggest you do.",
+    "CreatedAt": "2021-01-28T07:07:01Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "Terrible in my opinion",
+    "Body": "It really just dragged on in my opinion. Normally you can't drag me out of a book once I've started it, but I had to use sheer willpower",
+    "CreatedAt": "2020-07-10T01:29:07Z"
+  },
+  {
+    "BookId": 12,
+    "Subject": "3rd generation",
+    "Body": "Good book, good moral, slight foul language use(small amount)",
+    "CreatedAt": "2020-07-06T09:21:37Z"
+  },
+  {
+    "BookId": 6,
+    "Subject": "Organic",
+    "Body": "Release Atrial Septum, Percutaneous Endoscopic Approach",
+    "CreatedAt": "2020-11-25T13:07:21Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "hub",
+    "Body": "The story hoot takes place in Florida, where there is middle schooler named Roy Eberhardt going to his new school but,that same day he was bullied.Roy was bullied by Dana Matherson,after she was finished bullying Roy,he went to Dana and punched her face!",
+    "CreatedAt": "2020-08-30T10:25:47Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "attitude",
+    "Body": "Carl Hiaasen made yet another one of my favorites!! You should know that there is cursing and violence in this book. A boy named Dana, is a bully to a new kid named Roy and beats him up on the bus. There is one part when Dana tries to kill Roy in a janitor's closet.",
+    "CreatedAt": "2020-07-12T02:56:05Z"
+  },
+  {
+    "BookId": 2,
+    "Subject": "Multi-lateral",
+    "Body": "This is a great book!!!!!!!!!!!!!!!!",
+    "CreatedAt": "2021-05-12T13:55:06Z"
+  },
+  {
+    "BookId": 5,
+    "Subject": "Honestly.... pretty good",
+    "Body": "Let me just address that I am literally disgusted by all the bad reviews that teens or 'children' gave this book. 'i hAte thiS booK bC iT is onLy fOR nerDs! booOOorinG! sChool maDE uSS ReaD iT'. Please disregard those reviews from your mind.",
+    "CreatedAt": "2020-09-13T14:26:30Z"
+  },
+  {
+    "BookId": 3,
+    "Subject": "Most important part",
+    "Body": "This book does have traditional gender roles, however in this case it is not a bad thing. John Steinbeck is very ahead of his time in this book. In regards to the way he portrays the natives in this book, I would not say that it is belittling them, but more exposing the disparity ",
+    "CreatedAt": "2020-06-24T11:21:25Z"
+  },
+  {
+    "BookId": 14,
+    "Subject": "This book is good for nerds",
+    "Body": "Boring and Depressing good for nerds though",
+    "CreatedAt": "2020-08-06T13:30:01Z"
+  },
+  {
+    "BookId": 2,
+    "Subject": "The Pearl",
+    "Body": "The Pearl I feel has a great theme in the end, and there is some violence and for some parts kids need to be mature, so I don’t think a 12 year olds and under should read this because I know a lot of kids these ages are immature and get sad and sensitive too easily. ",
+    "CreatedAt": "2021-03-01T08:28:55Z"
+  },
+  {
+    "BookId": 10,
+    "Subject": "Another Great Steinbeck Book",
+    "Body": "This book is such a great experience, I read it in 2 days at home because I was so entwined with the narrative and the metaphorical context of this novella. It starts off hopeful and lighthearted, with a underlying message of kindness and greed.",
+    "CreatedAt": "2020-11-23T10:46:44Z"
+  },
+  {
+    "BookId": 14,
+    "Subject": "Terrible",
+    "Body": "Violence, husband beats wife, baby gets shot...BAD!!! DO NOT READ IT IT IS BAD! I almost fell asleep reading it.",
+    "CreatedAt": "2020-12-16T21:03:55Z"
+  },
+  {
+    "BookId": 7,
+    "Subject": "6th generation",
+    "Body": "Good book, good moral, slight foul language use(small amount)",
+    "CreatedAt": "2020-09-23T08:28:44Z"
+  },
+  {
+    "BookId": 3,
+    "Subject": "directional",
+    "Body": "Hoot is one of my favorite books. It had a good message. And even though the main characters did some things that were bad it was to help something important. That really made the book awesome. I hope you read it!",
+    "CreatedAt": "2020-08-21T20:33:37Z"
+  },
+  {
+    "BookId": 3,
+    "Subject": "superstructure",
+    "Body": "Hoot is one of my favorite books. It had a good message. And even though the main characters did some things that were bad it was to help something important. That really made the book awesome. I hope you read it!",
+    "CreatedAt": "2020-07-30T08:00:11Z"
+  },
+  {
+    "BookId": 4,
+    "Subject": "Animal Conservation",
+    "Body": "This book highlights animal conservation and how if you preserver you can make a difference and help a lot of people/animals.",
+    "CreatedAt": "2021-01-02T05:21:55Z"
+  },
+  {
+    "BookId": 12,
+    "Subject": "Advanced",
+    "Body": "Wow, we read this when I was in sixth grade. There's a little language, bullying and even a child using a false identity but still a great book with positive messages towards saving an endangered species.",
+    "CreatedAt": "2021-05-15T21:22:22Z"
+  },
+  {
+    "BookId": 6,
+    "Subject": "Great",
+    "Body": "I recommend it to a lot of kids.",
+    "CreatedAt": "2021-05-15T03:40:24Z"
+  },
+  {
+    "BookId": 8,
+    "Subject": "Great Book, Even Better Because It Inspires Readers To Help Nature!",
+    "Body": "Carl Hiaasen has written a twentieth century masterpiece in this zany thrill ride of a novel. We’ve all been looking for inspiration to help nature. Here it is. Everything in this book keeps readers turning pages, and humor sprinkled everywhere makes this a must read that reluctant",
+    "CreatedAt": "2020-09-04T09:36:39Z"
+  },
+  {
+    "BookId": 7,
+    "Subject": "booooring",
+    "Body": "i think the book has a slow plot and a very predictable ending",
+    "CreatedAt": "2021-02-11T09:11:36Z"
+  },
+  {
+    "BookId": 10,
+    "Subject": "Not what I was expecting",
+    "Body": "Hoot is a wonderful book for some but for me it just made me feel a little unsatisfied at the end. This book does contain a bit of swearing and other lines of text saying that a character drove off cursing. This book also has a character that smokes and gets arrested for trespassing",
+    "CreatedAt": "2020-07-30T10:38:41Z"
+  }
+]

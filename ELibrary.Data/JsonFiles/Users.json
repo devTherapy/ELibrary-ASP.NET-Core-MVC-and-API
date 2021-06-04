@@ -1,0 +1,27 @@
+[
+  
+  {
+    "FirstName": "admin",
+    "LastName": "admin",
+    "PhotoUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8",
+    "PhoneNumber": "183-471-4145",
+    "Email": "admin@gmail.com",
+    "Password": "6k5pJOZ0"
+  },
+  {
+    "FirstName": "Alexis",
+    "LastName": "Joncic",
+    "PhotoUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/",
+    "PhoneNumber": "481-824-1125",
+    "Email": "ajoncic1@tiny.cc",
+    "Password": "xLIzBq123"
+  },
+  {
+    "FirstName": "Paquito",
+    "LastName": "Jakubiak",
+    "PhotoUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hA",
+    "PhoneNumber": "911-747-9121",
+    "Email": "pjakubiak2@skyrock.com",
+    "Password": "f5iirrxZ1R"
+  }
+]

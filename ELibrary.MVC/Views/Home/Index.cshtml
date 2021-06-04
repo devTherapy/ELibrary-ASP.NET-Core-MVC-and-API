@@ -1,0 +1,57 @@
+﻿@model HomeViewModel;
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_HomeLayout";
+
+    ViewData["searchOption"] = new string[] { "Title", "Author", "ISBN", "Publisher", "PublishedYear" };
+    ViewData["controller"] = "Home";
+    ViewData["action"] = "Search";
+}
+
+<div class="container flex">
+    <aside class="w-1/5">
+        <partial name="Components/_HomeSideBar" model="@Model.Categories" />
+    </aside>
+
+    <section class="w-4/5">
+        <div>
+            <partial name="Components/_SearchAdminPartialView" model="@Model.searchViewModel" view-data="ViewData" />
+        </div>
+        @if (Model.NewestBooks != null)
+        {
+            <div class="mb-5">
+                <h2 class="mb-2 text-2xl">Newest Books</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-4 gap-x-2">
+                    @foreach (var book in @Model.NewestBooks)
+                    {
+                        @await Html.PartialAsync("Components/_Book", book)
+                    }
+                </div>
+            </div>
+        }
+
+        @if (Model.MostPopularBooks != null)
+        {       
+            <div class="mb-5">
+                <h2 class="mb-2 text-2xl">Most Popular</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-4 gap-x-2">
+                    @foreach (var book in @Model.MostPopularBooks)
+                    {
+                        @await Html.PartialAsync("Components/_Book", book)
+                    }
+                </div>
+            </div>
+        }
+
+        <div class="">
+            <h2 class="mb-2 text-2xl">Books</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-4 gap-x-2">
+                @foreach (var book in @Model.Books)
+                {
+                    @await Html.PartialAsync("Components/_Book", book)
+                }
+            </div>
+        </div>
+    </section>
+</div>
